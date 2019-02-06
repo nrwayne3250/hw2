@@ -1,13 +1,14 @@
 #include <string>
-
+/*
 #include "data_structures/map/map_impl.h"
 #include "data_structures/map/string_hashes.h"
 #include "gtest/gtest.h"
+*/
 
 namespace data_structures {
 namespace map {
 
-typedef MapImpl<std::string, std::string> StringMap;
+typedef Map<std::string, std::string> StringMap;
 
 namespace {
 
